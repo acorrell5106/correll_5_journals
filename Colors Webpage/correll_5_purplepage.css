@@ -1,0 +1,41 @@
+body {
+        background-color: #8E51DB;
+        color: #331D4F;
+}
+
+.container {
+        background-color: #8E51DB;
+}
+
+header {
+        background-color: #8E51DB;
+}
+
+nav {
+        background-color: #65399B;     
+}
+
+td {
+        color: #331D4F;
+}
+
+a {
+        color: #331D4F;
+}
+
+a:hover {
+        color: white;
+}
+
+.main {
+        background-color: #8E51DB;
+}
+
+aside {
+        background-color: #8E51DB;
+}
+
+footer {
+        background-color: #65399B;
+}
+

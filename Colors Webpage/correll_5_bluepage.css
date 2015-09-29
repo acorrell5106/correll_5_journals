@@ -1,0 +1,44 @@
+body {
+        background-color: #ADCFFF;
+        color: #30517F;
+}
+
+.container {
+        background-color: #ADCFFF;
+	color: #30517F;
+}
+
+header {
+        background-color: #ADCFFF;
+	color: #30517F;
+}
+
+nav {
+        background-color: #60A2FF;
+	color: #30517F;     
+}
+
+td {
+        color: #30517F;
+}
+
+a {
+        color: #30517F;
+}
+
+a:hover {
+        color: white;
+}
+
+.main {
+        background-color: #ADCFFF;
+}
+
+aside {
+        background-color: #ADCFFF;
+}
+
+footer {
+        background-color: #60A2FF;
+}
+

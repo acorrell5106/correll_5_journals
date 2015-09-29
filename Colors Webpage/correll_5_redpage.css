@@ -1,0 +1,42 @@
+body {
+        background-color: #FF7270;
+        color: #7F1312;
+}
+
+.container {
+        background-color: #FF7270;
+}
+
+header {
+        background-color: #FF7270;
+	color: #7F1312;
+}
+
+nav {
+        background-color: #CC1F1C;     
+}
+
+td {
+        color: #7F1312;
+}
+
+a {
+        color: #7F1312;
+}
+
+a:hover {
+        color: white;
+}
+
+.main {
+        background-color: #FF7270;
+}
+
+aside {
+        background-color: #FF7270;
+}
+
+footer {
+        background-color: #CC1F1C;
+}
+
