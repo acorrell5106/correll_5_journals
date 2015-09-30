@@ -1,41 +1,42 @@
 body {
-        background-color: ;
-        color: ;
+        background-color: #FFA96C;
+        color: #7F3E10;
 }
 
 .container {
-        background-color: ;
+        background-color: #FFA96C;
 }
 
 header {
-        background-color: ;
+        background-color: #FFA96C;
+	color: #7F3E10;
 }
 
 nav {
-        background-color: ;     
+        background-color: #FF7C1F;     
 }
 
 td {
-        color: ;
+        color: #7F3E10;
 }
 
 a {
-        color: ;
+        color: #7F3E10;
 }
 
 a:hover {
-        color: ;
+        color: white;
 }
 
 .main {
-        backcolor-color: ;
+        background-color: #FFA96C;
 }
 
 aside {
-        background-color: ;
+        background-color: #FFA96C;
 }
 
 footer {
-        background-color: ;
+        background-color: #FF7C1F;
 }
 

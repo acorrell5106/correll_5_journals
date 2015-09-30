@@ -1,30 +1,33 @@
 body {
         background-color: #ADCFFF;
-        color: ;
+        color: #30517F;
 }
 
 .container {
         background-color: #ADCFFF;
+	color: #30517F;
 }
 
 header {
         background-color: #ADCFFF;
+	color: #30517F;
 }
 
 nav {
-        background-color: #60A2FF;     
+        background-color: #60A2FF;
+	color: #30517F;     
 }
 
 td {
-        color: ;
+        color: #30517F;
 }
 
 a {
-        color: ;
+        color: #30517F;
 }
 
 a:hover {
-        color: ;
+        color: white;
 }
 
 .main {
@@ -39,4 +42,3 @@ footer {
         background-color: #60A2FF;
 }
 
-https://color.adobe.com/create/color-wheel/?base=2&rule=Monochromatic&selected=2&name=color-scheme-285-main&mode=rgb&rgbvalues=0.18906044255937343,0.3176702734906252,0.5,0.6781208851187468,0.8112555010097584,1,0.37812088511874686,0.6353405469812504,1,0.2936464388943082,0.37899774261491104,0.5,0.3024967080949975,0.5082724375850004,0.8&swatchOrder=0,1,2,3,4
