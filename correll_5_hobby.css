@@ -1,0 +1,52 @@
+body {
+	background-color: #FFE8C9;
+	background-image: url("color-scheme-285-main.png");
+	background-repeat: repeat-x;	
+}
+
+.title {
+	font-size: 25px;
+	position: absolute;
+	left: 675px;
+	top: 225px;
+}
+
+.left {
+	background-color: #436FFF;
+	position: absolute;
+        left: 250px;
+        top: 250px;
+}
+
+.middle {
+	background-color: #436FFF;
+        position: absolute;
+        left: 700px;
+        top: 270px;
+}
+
+.right {
+	background-color: #436FFF;
+        position: absolute;
+        right: 250px;
+        top: 250px;
+}
+
+article {
+	position: absolute;
+	left: 25px;
+	top: 600px;
+}
+
+.bottom {
+	position: absolute;
+	left: 25px;
+	top: 700px;
+}
+
+.container {
+	float: center;
+	top: 250px;
+	width: 100px;
+	height: 100px;
+}
