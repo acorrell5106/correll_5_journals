@@ -1,0 +1,8 @@
+Addison Correll's Journal 1022
+
+	What challenges have you faced in creating an emulation page?
+I found that the greatest challenge that we faced was trying to replicate the page as accurately as possible. Even a small change made the website totally different, but we realized that he web page couldn't be exactly the same, so we are now trying to do our best to emulate the page as best as possible.
+	What problems have you solved?
+One of the problems that we had to solve was having the pictures be the correct size and position. To have the images be in the correct position, we had to make the kimages become a certain size. I think this will be a temporary solution because I think we can mess around with the pictures' positions to have them be in the correct spots on the page.
+	What have you learned?
+I have learned that creating a website that emulates a professional website is quite difficult, and you really have to know a lot about your website to have it look like the professional website. I now know what I can do to really fine tune the web page to make it look as close as possible to the original page.   
