@@ -1,0 +1,4 @@
+	What is the process for creating images in Canvas?
+To create an image, you have to specify the points of said shape and then fill it in.
+	Given your experience with JavaScript and possibly other code, how do you predict you will make animations in Canvas?
+To create the animation, I know you have to change the coordinates of the shape multiple times, so perahps there will be a function for this.
