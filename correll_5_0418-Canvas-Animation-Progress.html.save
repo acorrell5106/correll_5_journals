@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>Correll's Journal 0418</title>
+</head>
+<body>
+	<p>What progress have you made on your animation? - I have finally figured out how to create multiple functions work together, and I now have both the Sun and the Earth together.</p>
+	<p>What is a function in JavaScript? - A function is like a seperate segment of the JavaScript program, and runs independent to the rest of the program, unless called upon.</p>
+	<p>What functions have you created to use with Canvas? - I have made a Sun function to create my Sun animation, and I have created an Earth function for my Earth animation.</p>
+</body>
+</html>
