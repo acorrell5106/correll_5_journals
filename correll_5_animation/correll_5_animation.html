@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation</title>
+    <style>
+        canvas {
+        border: 3px #CCC solid;
+        }   
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="myCanvas" height="750" width="750"></canvas>
+    </div>
+<script>
+    var mainCanvas = document.querySelector("#myCanvas");
+    var mainContext = mainCanvas.getContext("2d");
+    var circle = mainCanvas.getContext("2d");
+ 
+    var canvasWidth = mainCanvas.width;
+    var canvasHeight = mainCanvas.height;
+    
+    var angle = 0;
+    
+    var requestAnimationFrame = window.requestAnimationFrame || 
+                            window.mozRequestAnimationFrame || 
+                            window.webkitRequestAnimationFrame || 
+                            window.msRequestAnimationFrame;
+ 
+    function draw() {
+        drawEarth();
+        drawSun();
+    }
+    
+    function drawSun() {
+    mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+     
+    // color in the background
+    /*mainContext.fillStyle = "#222222";
+    mainContext.fillRect(0, 0, canvasWidth, canvasHeight);*/
+     
+    // draw the circle
+    circle.beginPath();
+        
+    var radius = 125 + 50 * Math.abs(Math.cos(angle));
+    circle.arc(250, 250, radius, 0, Math.PI * 2, false);
+    circle.closePath();
+     
+    // color in the circle
+    circle.fillStyle = "#FFEB50";
+    circle.fill();
+    
+    angle += Math.PI / 50000;
+    
+    requestAnimationFrame(drawSun);
+}
+    
+    function drawEarth() {
+    mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+     
+    // color in the background
+    /*mainContext.fillStyle = "#222222";
+    mainContext.fillRect(0, 0, canvasWidth, canvasHeight);*/
+     
+    // draw the circle
+    circle.beginPath();
+        
+        circle.rotate(Math.PI / 250);
+        
+    var radius = 50 + 10 * Math.abs(Math.cos(angle));
+    circle.arc(500, 500, radius, 0, Math.PI * 2, false);
+    circle.closePath();
+     
+    // color in the circle
+    circle.fillStyle = "#0000ff";
+    circle.fill();
+    
+    angle += Math.PI / 50000;
+    
+    requestAnimationFrame(drawEarth);
+}
+    
+    draw();
+    
+</script>
+</body>
+</html>
