@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>Correll's Journal</title>
+</head>
+<body>
+	<p>What is the process for creating animations in Canvas? - To create animations in Canvas, you have to create a canvas, create a function where you shape will be. You have to create the shape, and then alter one or more of its dimensions so it will move when drawn multiple times. Then, at the top of the function, you have to clear the canvas so the image is drawn again, but not keeping the older image. Finally, you call that function and the animation will run.</p>
+	<p>What will you create? - I want to create a solar system with planets rotating around the sun, and possibly even some stars.</p>
+	<p>Which three functions will you create? Why? - I'm going to create a sun function (to draw the sun), earth function (to draw the earth), and a stars function (to draw the stars), so I will have the full solar system.</p>
+</body>
+</html>
